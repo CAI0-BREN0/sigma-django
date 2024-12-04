@@ -1,0 +1,56 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="{% static 'css/home.css' %}" />
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="../../../myproject/static/images/logo1.png" class="logo" alt="" >
+            <div class="menu">
+                <li><a href="/polls/clientes">Clientes</a></li>
+                <li><a href="/polls/veiculos">Veículos</a></li>
+                <li><a href="/polls/operacoes">Operações</a></li>
+
+            </div>
+
+            <div class="social">
+                <a href="/polls/login"><i class="fa-solid fa-right-from-bracket"></i></a>
+                <a href="https://github.com/JotaMarcos/PropostaProjetoSigma/tree/main"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="hero">
+
+        <div class="text">
+            <h4>Qualidade e Confiança</h4>
+            <h1>Sigma<br> <span>Cars</span></h1>
+            <p>Força, Poder, e velocidade </p>
+  
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Rede Sigma de Automóveis</p>
+    </footer>
+
+    <!-- <script>
+        let heroBg = document.querySelector('.hero');
+
+        setInterval(() => {
+            heroBg.style.backgroundImage = "url(../../../myproject/static/images/logo1.png)"
+            
+            setTimeout(() => {
+                heroBg.style.backgroundImage = "url(../../../myproject/static/images/logo1.png)"
+            }, 1000);
+        }, 2200);
+    </script> -->
+</body>
+</html>
